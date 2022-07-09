@@ -30,34 +30,34 @@ Created a new build of DWM to learn and experience the philosophy of Suckless so
 
 # Important Keybindings
 
-### NOTE: `MOD` = `Super/Windows` Key
+### NOTE: `Mod` = `Super/Windows` Key
 
 ### Spawn Commands
 | Keys                            | Action                 |
 |---------------------------------|------------------------|
-| `MOD` `Shift` `Enter`           | Alacritty              |
-| `MOD` `Shift` `b`               | Bitwarden(Scratchpad)  |
-| `MOD` `p`                       | dmenu                  |
+| `Mod` `Shift` `Enter`           | Alacritty              |
+| `Mod` `Shift` `b`               | Bitwarden(Scratchpad)  |
+| `Mod` `p`                       | dmenu                  |
 
 ### Layout Commands
 | Keys                                                      | Action                                            |
 |-----------------------------------------------------------|---------------------------------------------------|
-| `MOD` `Enter`                                             | Send focused window to the top of the stack       |
-| `MOD` `Ctrl` `.` (next) OR `MOD` `Ctrl` `.` (previous)    | Cycle Layouts                                     |
-| `MOD` `j` (next) OR `MOD` `k` (previous)                  | Move focus between windows                        |
-| `MOD` `h` (increase) OR `MOD` `l` (decrease)              | Manipulate window on top of the stack (master)    |
+| `Mod` `Enter`                                             | Send focused window to the top of the stack       |
+| `Mod` `Ctrl` `.` (next) OR `Mod` `Ctrl` `.` (previous)    | Cycle Layouts                                     |
+| `Mod` `j` (next) OR `Mod` `k` (previous)                  | Move focus between windows                        |
+| `Mod` `h` (increase) OR `Mod` `l` (decrease)              | Manipulate window on top of the stack (master)    |
 
 ### Window Commands
 | Keys                                              | Action                 |
 |---------------------------------------------------|------------------------|
-| `MOD` `Shift` `c`                                 | Kill focused window    |
-| `MOD` `Shift` `Space`                             | Make window float      |
-| `MOD` `Shift` `Middle Mouse Button`               | Make window un-float   |
+| `Mod` `Shift` `c`                                 | Kill focused window    |
+| `Mod` `Shift` `Space`                             | Make window float      |
+| `Mod` `Shift` `Middle Mouse Button`               | Make window un-float   |
 
 ### Session Commands
 | Keys                            | Action                 |
 |---------------------------------|------------------------|
-| `MOD` `Shift` `q`               | quit DWM cleanly       |
+| `Mod` `Shift` `q`               | quit DWM cleanly       |
 
 # Original README
 [![original-README](https://img.shields.io/badge/README-Suckless-blue)](SUCKLESS.README)
