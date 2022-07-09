@@ -28,8 +28,36 @@ Created a new build of DWM to learn and experience the philosophy of Suckless so
 - Make script(s) executable. Ex: `chmod +x $XDG_DATA_HOME/dwm/autostart.sh`
 - Restart DWM
 
-# Keybindings
-Placeholder
+# Important Keybindings
+
+## MOD = `Super/Windows` Key
+
+### Spawn Commands
+| Keys                            | Action                 |
+|---------------------------------|------------------------|
+| `MOD` `Shift` `Enter`           | Alacritty              |
+| `MOD` `Shift` `b`               | Bitwarden(Scratchpad)  |
+| `MOD` `p`                       | dmenu                  |
+
+### Layout Commands
+| Keys                                                      | Action                                            |
+|-----------------------------------------------------------|---------------------------------------------------|
+| `MOD` `Enter`                                             | Send focused window to the top of the stack       |
+| `MOD` `Ctrl` `.` (next) OR `MOD` `Ctrl` `.` (previous)    | Cycle Layouts                                     |
+| `MOD` `j` (next) OR `MOD` `k` (previous)                  | Move focus between windows                        |
+| `MOD` `h` (increase) OR `MOD` `l` (decrease)              | Manipulate window on top of the stack (master)    |
+
+### Window Commands
+| Keys                                              | Action                 |
+|---------------------------------------------------|------------------------|
+| `MOD` `Shift` `c`                                 | Kill focused window    |
+| `MOD` `Shift` `Space`                             | Make window float      |
+| `MOD` `Shift` `Middle Mouse Button`               | Make window un-float   |
+
+### Session Commands
+| Keys                            | Action                 |
+|---------------------------------|------------------------|
+| `MOD` `Shift` `q`               | quit DWM cleanly       |
 
 # Original README
 [![original-README](https://img.shields.io/badge/README-Suckless-blue)](SUCKLESS.README)
