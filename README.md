@@ -30,7 +30,7 @@ Created a new build of DWM to learn and experience the philosophy of Suckless so
 
 # Important Keybindings
 
-### NOTE: MOD = `Super/Windows` Key
+### NOTE: `MOD` = `Super/Windows` Key
 
 ### Spawn Commands
 | Keys                            | Action                 |
