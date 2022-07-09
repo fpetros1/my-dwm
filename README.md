@@ -1,3 +1,5 @@
+img[alt=DWM] { width: 10px; height: 10px;}
+
 # Table of Contents
 - [Patches](#patches)
 - [Keybindings](#keybindings)
