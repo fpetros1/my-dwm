@@ -2,17 +2,16 @@
 Created a new build of DWM to learn and experience the philosophy of Suckless software
 
 # Patches
-- [![AutoStart](https://img.shields.io/badge/DWM-AutoStart-blue)](https://dwm.suckless.org/patches/autostart/)
-- [![Status2d-Systray](https://img.shields.io/badge/DWM-Status2D(With%20System%20Tray)-blue)](https://dwm.suckless.org/patches/status2d/)
-- [![Attach-Bottom](https://img.shields.io/badge/DWM-Attach%20Bottom-blue)](https://dwm.suckless.org/patches/attachbottom/)
-- [![Always-Center](https://img.shields.io/badge/DWM-Always%20Center-blue)](https://dwm.suckless.org/patches/alwayscenter/)
-- [![Always-Center](https://img.shields.io/badge/DWM-Always%20Center-blue)](https://dwm.suckless.org/patches/alwayscenter/)
-- [![Float-Rules](https://img.shields.io/badge/DWM-Float%20Rules-blue)](https://dwm.suckless.org/patches/floatrules/)
-- [![Per-Tag](https://img.shields.io/badge/DWM-Per%20Tag-blue)](https://dwm.suckless.org/patches/pertag/)
-- [![Centered-Master](https://img.shields.io/badge/DWM-Centered%20Master-blue)](https://dwm.suckless.org/patches/centeredmaster/)
-- [![Cycle-Layouts](https://img.shields.io/badge/DWM-Cycle%20Layouts-blue)](https://dwm.suckless.org/patches/centeredmaster/)
-- [![Vanity-Gaps](https://img.shields.io/badge/DWM-Vanity%20Gaps-blue)](https://dwm.suckless.org/patches/vanitygaps/)
-- [![Scratchpads](https://img.shields.io/badge/DWM-Scratchpads-blue)](https://dwm.suckless.org/patches/scratchpads/)
+- 01 - [![AutoStart](https://img.shields.io/badge/DWM-AutoStart-blue)](https://dwm.suckless.org/patches/autostart/)
+- 02 - [![Status2d-Systray](https://img.shields.io/badge/DWM-Status2D(With%20System%20Tray)-blue)](https://dwm.suckless.org/patches/status2d/)
+- 03 - [![Attach-Bottom](https://img.shields.io/badge/DWM-Attach%20Bottom-blue)](https://dwm.suckless.org/patches/attachbottom/)
+- 04 - [![Always-Center](https://img.shields.io/badge/DWM-Always%20Center-blue)](https://dwm.suckless.org/patches/alwayscenter/)
+- 05 - [![Float-Rules](https://img.shields.io/badge/DWM-Float%20Rules-blue)](https://dwm.suckless.org/patches/floatrules/)
+- 06 - [![Per-Tag](https://img.shields.io/badge/DWM-Per%20Tag-blue)](https://dwm.suckless.org/patches/pertag/)
+- 07 - [![Centered-Master](https://img.shields.io/badge/DWM-Centered%20Master-blue)](https://dwm.suckless.org/patches/centeredmaster/)
+- 08 - [![Cycle-Layouts](https://img.shields.io/badge/DWM-Cycle%20Layouts-blue)](https://dwm.suckless.org/patches/centeredmaster/)
+- 09 - [![Vanity-Gaps](https://img.shields.io/badge/DWM-Vanity%20Gaps-blue)](https://dwm.suckless.org/patches/vanitygaps/)
+- 10 - [![Scratchpads](https://img.shields.io/badge/DWM-Scratchpads-blue)](https://dwm.suckless.org/patches/scratchpads/)
 
 # Requirements
 - Alacritty
