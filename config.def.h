@@ -8,6 +8,11 @@ static const unsigned int systrayonleft = 0;   	/* 0: systray in the right corne
 static const unsigned int systrayspacing = 5;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray        = 1;     /* 0 means no systray */
+static const unsigned int gappih    = 10;       /* horiz inner gap between windows */
+static const unsigned int gappiv    = 10;       /* vert inner gap between windows */
+static const unsigned int gappoh    = 30;       /* horiz outer gap between windows and screen */
+static const unsigned int gappov    = 30;       /* vert outer gap between windows and screen */
+static const int smartgaps          = 0;        /* 1 means no outer gap when there is only one */
 static const int showbar            = 1;     /* 0 means no bar */
 static const int topbar             = 1;     /* 0 means bottom bar */
 static const char *fonts[]          = { "Hack Nerd Font Mono:pixelsize=14:antialias=true:autohint=true", "monospace:size=10" };
@@ -80,6 +85,22 @@ static Key keys[] = {
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
+	{ MODKEY|Mod1Mask,              XK_h,      incrgaps,       {.i = +1 } },
+	{ MODKEY|Mod1Mask,              XK_l,      incrgaps,       {.i = -1 } },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_h,      incrogaps,      {.i = +1 } },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_l,      incrogaps,      {.i = -1 } },
+	{ MODKEY|Mod1Mask|ControlMask,  XK_h,      incrigaps,      {.i = +1 } },
+	{ MODKEY|Mod1Mask|ControlMask,  XK_l,      incrigaps,      {.i = -1 } },
+	{ MODKEY|Mod1Mask,              XK_0,      togglegaps,     {0} },
+	{ MODKEY|Mod1Mask|ShiftMask,    XK_0,      defaultgaps,    {0} },
+	{ MODKEY,                       XK_y,      incrihgaps,     {.i = +1 } },
+	{ MODKEY,                       XK_o,      incrihgaps,     {.i = -1 } },
+	{ MODKEY|ControlMask,           XK_y,      incrivgaps,     {.i = +1 } },
+	{ MODKEY|ControlMask,           XK_o,      incrivgaps,     {.i = -1 } },
+	{ MODKEY|Mod1Mask,              XK_y,      incrohgaps,     {.i = +1 } },
+	{ MODKEY|Mod1Mask,              XK_o,      incrohgaps,     {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_y,      incrovgaps,     {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_o,      incrovgaps,     {.i = -1 } },
 	{ MODKEY,                       XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
