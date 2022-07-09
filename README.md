@@ -48,16 +48,16 @@ Created a new build of DWM to learn and experience the philosophy of Suckless so
 | `Mod` `h` (increase) OR `Mod` `l` (decrease)              | Manipulate window on top of the stack (master)    |
 
 ### Window Commands
-| Keys                                              | Action                 |
-|---------------------------------------------------|------------------------|
-| `Mod` `Shift` `c`                                 | Kill focused window    |
-| `Mod` `Shift` `Space`                             | Make window float      |
-| `Mod` `Shift` `Middle Mouse Button`               | Make window un-float   |
+| Keys                                              | Action                         |
+|---------------------------------------------------|--------------------------------|
+| `Mod` `Shift` `c`                                 | Kill focused window            |
+| `Mod` `Shift` `Space`                             | Make focused window float      |
+| `Mod` `Shift` `Middle Mouse Button`               | Make focused window un-float   |
 
 ### Session Commands
 | Keys                            | Action                 |
 |---------------------------------|------------------------|
-| `Mod` `Shift` `q`               | quit DWM cleanly       |
+| `Mod` `Shift` `q`               | Quit DWM cleanly       |
 
 # Original README
 [![original-README](https://img.shields.io/badge/README-Suckless-blue)](SUCKLESS.README)
