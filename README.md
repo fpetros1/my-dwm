@@ -35,7 +35,7 @@ Created a new build of DWM to learn and experience the philosophy of Suckless so
 | Keys                            | Action                 |
 |---------------------------------|------------------------|
 | `Mod`+`Enter`                   | Alacritty              |
-| `Mod`+`Shift` `b`               | Bitwarden(Scratchpad)  |
+| `Mod`+`Shift`+`b`               | Bitwarden(Scratchpad)  |
 | `Mod`+`p`                       | rofi                   |
 
 ### Tag Commands
