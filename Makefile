@@ -6,7 +6,7 @@ include config.mk
 SRC = drw.c dwm.c util.c
 OBJ = ${SRC:.c=.o}
 
-all: options dwm
+all: clean-config options dwm
 
 options:
 	@echo dwm build options:
@@ -18,6 +18,9 @@ options:
 	${CC} -c ${CFLAGS} $<
 
 ${OBJ}: config.h config.mk
+
+clean-config:
+	rm -f config.h
 
 config.h:
 	cp config.def.h $@
