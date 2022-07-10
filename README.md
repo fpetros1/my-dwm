@@ -34,24 +34,30 @@ Created a new build of DWM to learn and experience the philosophy of Suckless so
 ### Spawn Commands
 | Keys                            | Action                 |
 |---------------------------------|------------------------|
-| `Mod` `Shift` `Enter`           | Alacritty              |
-| `Mod` `Shift` `b`               | Bitwarden(Scratchpad)  |
-| `Mod` `p`                       | dmenu                  |
+| `Mod`+`Enter`                   | Alacritty              |
+| `Mod`+`Shift` `b`               | Bitwarden(Scratchpad)  |
+| `Mod`+`p`                       | rofi                   |
+
+### Tag Commands
+| Keys                      | Action                     |
+|---------------------------|----------------------------|
+| `Mod`+`{1 ... 9}`         | Change to Tag {1 ... 9}    | 
+| `Mod`+`Shift`+`{1 ... 9}`| Send focused window to tag |
 
 ### Layout Commands
 | Keys                                                      | Action                                            |
 |-----------------------------------------------------------|---------------------------------------------------|
-| `Mod` `Enter`                                             | Send focused window to the top of the stack       |
-| `Mod` `Ctrl` `.` (next) OR `Mod` `Ctrl` `.` (previous)    | Cycle Layouts                                     |
-| `Mod` `j` (next) OR `Mod` `k` (previous)                  | Move focus between windows                        |
-| `Mod` `h` (increase) OR `Mod` `l` (decrease)              | Manipulate window on top of the stack (master)    |
+| `Mod`+`Shift`+`Enter`                                     | Send focused window to the top of the stack       |
+| `Mod`+`Ctrl`+`.` (next) OR `Mod`+`Ctrl`+`.` (previous)    | Cycle Layouts                                     |
+| `Mod`+`j` (next) OR `Mod`+`k` (previous)                  | Move focus between windows                        |
+| `Mod`+`h` (increase) OR `Mod`+`l` (decrease)              | Manipulate window on top of the stack (master)    |
 
 ### Window Commands
 | Keys                                              | Action                         |
 |---------------------------------------------------|--------------------------------|
-| `Mod` `Shift` `c`                                 | Kill focused window            |
-| `Mod` `Shift` `Space`                             | Make focused window float      |
-| `Mod` `Shift` `Middle Mouse Button`               | Make focused window un-float   |
+| `Mod`+`q`                                         | Kill focused window            |
+| `Mod`+`Shift`+`Space`                             | Make focused window float      |
+| `Mod`+`Shift`+`Middle Mouse Button`               | Make focused window un-float   |
 
 ### Session Commands
 | Keys                            | Action                 |
