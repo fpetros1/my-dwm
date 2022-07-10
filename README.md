@@ -62,7 +62,7 @@ Created a new build of DWM to learn and experience the philosophy of Suckless so
 ### Session Commands
 | Keys                            | Action                 |
 |---------------------------------|------------------------|
-| `Mod` `Shift` `q`               | Quit DWM cleanly       |
+| `Mod`+`Shift`+`q`               | Quit DWM cleanly       |
 
 # Original README
 [![original-README](https://img.shields.io/badge/README-Suckless-blue)](SUCKLESS.README)
