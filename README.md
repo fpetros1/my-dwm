@@ -15,7 +15,7 @@ Created a new build of DWM to learn and experience the philosophy of Suckless so
 
 # Requirements
 - Alacritty
-- dmenu
+- rofi
 - Bitwarden (bitwarden-desktop on $PATH)
 
 # Extensions
@@ -42,7 +42,7 @@ Created a new build of DWM to learn and experience the philosophy of Suckless so
 | Keys                      | Action                     |
 |---------------------------|----------------------------|
 | `Mod`+`{1 ... 9}`         | Change to Tag {1 ... 9}    | 
-| `Mod`+`Shift`+`{1 ... 9}`| Send focused window to tag |
+| `Mod`+`Shift`+`{1 ... 9}` | Send focused window to tag |
 
 ### Layout Commands
 | Keys                                                      | Action                                            |
