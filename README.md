@@ -56,7 +56,7 @@ Created a new build of DWM to learn and experience the philosophy of Suckless so
 | Keys                                              | Action                         |
 |---------------------------------------------------|--------------------------------|
 | `Mod`+`q`                                         | Kill focused window            |
-| `Mod`+`Shift`+`Space`                             | Make focused window float      |
+| `Mod`+`Space`                                     | Make focused window float      |
 | `Mod`+`Shift`+`Middle Mouse Button`               | Make focused window un-float   |
 
 ### Session Commands
